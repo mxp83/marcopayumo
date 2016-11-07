@@ -14,4 +14,11 @@ get_header(); ?>
 		</div>
 	</div>
 </div>
+<section id="project-front">
+	<div class="row small-collapse medium-collapse large-collapse">
+			<?php project_recent_posts(); ?>
+	</div>
+</section>
 
+
+<?php get_footer();?>
